@@ -1,0 +1,3 @@
+the getHeadNumber method is used to generate 6 luck number from 1-59
+the getBonus method is used to generate 1 bonus number from the left numbers
+the out put method is used to build a string which can be displayed
