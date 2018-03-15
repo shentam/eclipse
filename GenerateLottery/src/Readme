@@ -1,3 +1,8 @@
-the getHeadNumber method is used to generate 6 luck number from 1-59
+the getHeadNumber method is used to generate 6 luck numbers from 1-59
 the getBonus method is used to generate 1 bonus number from the left numbers
 the out put method is used to build a string which can be displayed
+the getReadNumber method is used to generate another 2 numbers from 1-59
+the genertateLottery method is used to generate 6+2 numbers
+
+the difference between getBonus and generateLottery is getBonus generate 7 numbers from 1-59 without repeat.
+it uses two for loop to avoid repeat. it's absolutely followed the algorithm. there's another simply way to implement it, that is:modify and  invoke the getHeadNumber method to create 7 numbers from 1-59 and before sort list pick up the 7th number as the bonus and print out. But it's not the true algorithm.  
