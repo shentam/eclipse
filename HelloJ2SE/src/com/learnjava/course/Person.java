@@ -6,10 +6,27 @@ public class Person {
 	private int age;
 	private String gender;
 	
+	public Person() {
+		//empty constructor for object with empty new, the 
+	}
+	
 	public Person(String firstName, String surName,int age, String gender){
 		this.firstName=firstName;
 		this.surName=surName;
 		this.age=age;
+		this.gender=gender;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName=firstName;
+	}
+	public void setSurName(String surName) {
+		this.surName=surName;
+	}
+	public void setAge(int age) {
+		this.age=age;
+	}
+	public void setGender(String gender) {
 		this.gender=gender;
 	}
 	public String getFirstName() {

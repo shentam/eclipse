@@ -6,10 +6,37 @@ public class Dog {
 	private int age;
 	private String master;
 	
+
+	public Dog() {
+		 
+	}
 	public Dog(String name,String color,int age, String master) {
 		this.name=name;
 		this.color=color;
 		this.age=age;
+		this.master=master;
+	}
+	
+	public static Dog newTestInstance() {
+		//static factory method
+		Dog test= new Dog();
+		test.setName("eva");
+		test.setColor("red");
+		test.setAge(4);
+		test.setMaster("Eric");
+		return test;
+	}
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+	public void setColor(String color) {
+		this.color=color;
+	}
+	public void setAge(int age) {
+		this.age=age;
+	}
+	public void setMaster(String master) {
 		this.master=master;
 	}
 	

@@ -1,0 +1,9 @@
+in Person class there are two constructors used, 1 is empty constructor which can be invoked when the new instance
+with empty parameter, the other is traditional constructor which invoked by fully parameters provided.
+
+in Dog class there are 3 different constructors as well, but one is named "static factory method" which can be
+invoked as ClassName.newTestInstance() without keywords new. But the parameter should be provider in class level
+it'll make a little confuse in the main class
+
+Ola is a normal parameter provided instance
+another is empty constructor new instance. 
