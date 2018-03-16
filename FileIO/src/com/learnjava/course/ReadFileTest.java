@@ -52,6 +52,8 @@ public class ReadFileTest {
 			}
 			file.close();
 			//文件读取结束之后一定要通过close()方法关闭这个流对象
+			f.close();
+			fi.close();
 		}
 		
 		catch(FileNotFoundException e){

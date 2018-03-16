@@ -1,6 +1,7 @@
 package com.learnjava.course;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.lang.reflect.Constructor;
 
 public class Test {
@@ -13,7 +14,10 @@ public class Test {
 			System.out.println("Create File Object with Reflection.");
 			//使用反射创建File对象
 			
+			
+			
 			File file =constructor.newInstance("C:/Users/潭/Desktop/MyFile.txt");
+			
 			System.out.println("Use File Object to create MyFile.txt on desktop.");
 			//指定了创建的路径为桌面，名称为“MyFile.txt”
 			
